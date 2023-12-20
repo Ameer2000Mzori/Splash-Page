@@ -101,3 +101,107 @@ body {
     right: 637px;
   }
 }
+
+@media screen and (max-width: 1800px) {
+  .header {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    align-items: center;
+    justify-content: start;
+    width: 100vw;
+    height: 100vh;
+    background:
+      linear-gradient(
+        180deg,
+        #fff 0%,
+        #f3f8f7 49.91%,
+        #fff9f5 94.19%
+      );
+
+    .head-Wrap {
+      position: relative;
+      width: 80%;
+      height: 90%;
+
+      .icon-Title-Wrap {
+        position: absolute;
+        width: 193px;
+        height: 117.64px;
+        top: 15px;
+        left: 2px;
+      }
+
+      .head-Text-Wrap {
+        position: absolute;
+        width: 290px;
+        height: 235px;
+        top: 25%;
+        left: 2px;
+
+        .head-Text {
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 67.5px;
+        }
+
+        .head-Text-P {
+          font-size: 11px;
+          max-width: 60%;
+          line-height: 12px;
+        }
+      }
+
+      .buttons-Wrap {
+        position: absolute;
+        top: 60%;
+        left: 0;
+
+        .apple-Img,
+        .sam-Img {
+          height: 20px;
+          transition: all 150ms ease-in-out;
+          cursor: pointer;
+        }
+
+        .apple-Img:hover {
+          transform: scale(1.1);
+          margin: 5px;
+        }
+
+        .apple-Img:active {
+          transform: scale(0.9);
+        }
+
+        .sam-Img:hover {
+          transform: scale(1.1);
+          margin: 5px;
+        }
+
+        .sam-Img:active {
+          transform: scale(0.9);
+        }
+      }
+
+      .main-Img {
+        position: absolute;
+        width: 235.72px;
+        height: 209.27px;
+        top: 65%;
+        left: 1.28px;
+        padding: 0, 0, 0, 0;
+      }
+    }
+
+    .profile-Image {
+      position: absolute;
+      top: 606px;
+      right: 637px;
+    }
+  }
+
+  .bottom-Images-Wrap {
+    display: none;
+  }
+}
