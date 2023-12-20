@@ -69,3 +69,9 @@ body {
   left: 683.28px;
   padding: 0, 0, 0, 0;
 }
+
+.header .profile-Image {
+  position: absolute;
+  top: 606px;
+  right: 637px;
+}
