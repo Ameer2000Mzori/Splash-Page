@@ -8,4 +8,13 @@ body {
 .header {
   height: 100vh;
   background: linear-gradient(180deg, #fff 0%, #f3f8f7 49.91%, #fff9f5 94.19%);
+  position: relative;
+}
+
+.header .icon-Title-Wrap {
+  position: absolute;
+  width: 193px;
+  height: 47.64px;
+  top: 50.25px;
+  left: 221px;
 }
