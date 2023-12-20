@@ -61,6 +61,30 @@ body {
   left: 221px;
 }
 
+.header .head-Wrap .buttons-Wrap .apple-Img,
+.header .head-Wrap .buttons-Wrap .sam-Img {
+  transition: all 150ms ease-in-out;
+  cursor: pointer;
+}
+
+.header .head-Wrap .buttons-Wrap .apple-Img:hover {
+  transform: scale(1.1);
+  margin: 5px;
+}
+
+.header .head-Wrap .buttons-Wrap .apple-Img:active {
+  transform: scale(0.9);
+}
+
+.header .head-Wrap .buttons-Wrap .sam-Img:hover {
+  transform: scale(1.1);
+  margin: 5px;
+}
+
+.header .head-Wrap .buttons-Wrap .sam-Img:active {
+  transform: scale(0.9);
+}
+
 .header .head-Wrap .main-Img {
   position: absolute;
   width: 535.72px;

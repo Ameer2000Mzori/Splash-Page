@@ -59,6 +59,30 @@ body {
       position: absolute;
       top: 600px;
       left: 221px;
+
+      .apple-Img,
+      .sam-Img {
+        transition: all 150ms ease-in-out;
+        cursor: pointer;
+      }
+
+      .apple-Img:hover {
+        transform: scale(1.1);
+        margin: 5px;
+      }
+
+      .apple-Img:active {
+        transform: scale(0.9);
+      }
+
+      .sam-Img:hover {
+        transform: scale(1.1);
+        margin: 5px;
+      }
+
+      .sam-Img:active {
+        transform: scale(0.9);
+      }
     }
 
     .main-Img {
