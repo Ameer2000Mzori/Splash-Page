@@ -42,3 +42,9 @@ body {
   color: #54575a;
   line-height: 32px;
 }
+
+.header .buttons-Wrap {
+  position: absolute;
+  top: 600px;
+  left: 221px;
+}
