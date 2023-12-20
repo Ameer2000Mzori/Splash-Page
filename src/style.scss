@@ -19,4 +19,19 @@ body {
     top: 50.25px;
     left: 221px;
   }
+
+  .head-Text-Wrap {
+    position: absolute;
+    width: 458px;
+    height: 135px;
+    top: 236px;
+    left: 221px;
+
+    .head-Text {
+      font-size: 64px;
+      font-weight: 500;
+      font-family: $fontOne;
+      color: #54575a;
+    }
+  }
 }
