@@ -5,48 +5,69 @@ $fontOne: "Roboto", sans-serif;
 body {
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
 }
 
 .header {
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  align-items: center;
+  justify-content: start;
+  width: 100vw;
+  height: 1388px;
   background: linear-gradient(180deg, #fff 0%, #f3f8f7 49.91%, #fff9f5 94.19%);
-  position: relative;
 
-  .icon-Title-Wrap {
-    position: absolute;
-    width: 193px;
-    height: 47.64px;
-    top: 50.25px;
-    left: 221px;
-  }
+  .head-Wrap {
+    position: relative;
+    width: 80%;
+    height: 90%;
 
-  .head-Text-Wrap {
-    position: absolute;
-    width: 458px;
-    height: 135px;
-    top: 236px;
-    left: 221px;
-
-    .head-Text {
-      font-size: 64px;
-      font-weight: 500;
-      font-family: $fontOne;
-      color: #54575a;
-      line-height: 67.5px;
+    .icon-Title-Wrap {
+      position: absolute;
+      width: 193px;
+      height: 47.64px;
+      top: 50.25px;
+      left: 221px;
     }
 
-    .head-Text-P {
-      font-size: 20px;
-      font-weight: 400;
-      font-family: $fontOne;
-      color: #54575a;
-      line-height: 32px;
-    }
-  }
+    .head-Text-Wrap {
+      position: absolute;
+      width: 458px;
+      height: 135px;
+      top: 236px;
+      left: 221px;
 
-  .buttons-Wrap {
-    position: absolute;
-    top: 600px;
-    left: 221px;
+      .head-Text {
+        font-size: 64px;
+        font-weight: 500;
+        font-family: $fontOne;
+        color: #54575a;
+        line-height: 67.5px;
+      }
+
+      .head-Text-P {
+        font-size: 20px;
+        font-weight: 400;
+        font-family: $fontOne;
+        color: #54575a;
+        line-height: 32px;
+      }
+    }
+
+    .buttons-Wrap {
+      position: absolute;
+      top: 600px;
+      left: 221px;
+    }
+
+    .main-Img {
+      position: absolute;
+      width: 535.72px;
+      height: 309.27px;
+      top: 229.73px;
+      left: 683.28px;
+      padding: 0, 0, 0, 0;
+    }
   }
 }
